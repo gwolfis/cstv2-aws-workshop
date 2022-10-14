@@ -61,4 +61,4 @@ We will use this key pair at a later stage to SSH into instances, deployed in AW
 You have completes this task.
 
 
-[PREVIOUS](../README.md)      [NEXT](../docs/0_Getting_Started.md)
+[PREVIOUS](../README.md)      [NEXT](../docs/1_Setup_the_VPC_and_More.md)

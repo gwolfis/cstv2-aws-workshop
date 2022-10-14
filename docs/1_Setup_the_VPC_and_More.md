@@ -69,4 +69,4 @@ An internet gateway allows communication between your VPC and the Internet.
 This task is completed.
 
 
-[PREVIOUS](../docs/0_Getting_Started.md)      [NEXT](../docs/1_Setup_the_VPC_and_More.md)
+[PREVIOUS](../docs/0_Getting_Started.md)      [NEXT](../docs/2_Deploy_BIG-IPs_with_CSTv2.md)

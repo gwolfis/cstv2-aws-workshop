@@ -98,7 +98,8 @@ Questions:
 3. In each terminal type **tail -f /var/log/restnoded/restnoded.log**.
 4. Now enforce a failover and watch the logging carefully.
 
+
 This task is completed.
 
 
-[PREVIOUS](../docs/3_Create_Demo_App.md) [BacktoREADME](../README.md)
+[PREVIOUS](../docs/3_Create_Demo_App.md) [BacktoREADME](../docs/5_Delete_Deployment.md)
