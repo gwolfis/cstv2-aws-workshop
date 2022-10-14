@@ -19,7 +19,7 @@ Another reason to start using CSTv2 is because they use BIG-IP [Runtime-init](ht
 
 
 ## How to use this workshop
-For invited student an F5 UDF lab environment will be available which includes access to an AWS cloud environment and all needed facilities.
+For invited students, an F5 UDF lab environment will be available which includes access to an AWS cloud environment and all needed facilities.
 When you don't have an F5 UDF lab available you can still leverage the content. Use your own environment to install the needed packages and explore by using this workshop.
 
 The pre-requistes are:
@@ -30,13 +30,13 @@ The pre-requistes are:
 * F5 VSC extension installed
 
 ## What you will learn
-How to use CSTv2 to deploy BIG-IP Failover design in AWS when a **network already exists** AKA 'existing stack' and customize the template for local usage.
+How to use CSTv2 to deploy BIG-IP Failover design in AWS when a **network already exists**, also known as 'existing stack' and customize the template for local usage.
 
 Tasks to deploy are:
 
-* Learn AWS basics
-* Manually create a VPC, affiliated networking components and a test application
-* Use CSTv2 'existing network' to deploy BIG-IP
+* Learn AWS basics;
+* Manually create a VPC, affiliated networking components and a test application;
+* Use CSTv2 'existing network' to deploy BIG-IP.
 
 The mix between manually configuring AWS components and the use of CloudFormation Templates (CFTs) make that one will better understand the deployed objects and the relationship between each other.
 

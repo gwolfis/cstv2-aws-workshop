@@ -2,11 +2,11 @@
 
 To be able to deploy a Cloudformation template which expects an existing infrastructure, we first need to create one.
 
-This task will guide you through the setup and minimum requirements to create:
+This task will guide you through the setup and minimum requirements by configuring:
 - a Virtual Private Network (VPC);
 - Subnets for management, external and internal networking in different availability zones;
-- an Internet gateway;
-- and a Route Table.
+- an Internet gateway; and
+- a Route Table.
 
 ## Create a VPC
 1. Select `Services` in the upper left corner (next to the AWS icon) and select `VPC`.

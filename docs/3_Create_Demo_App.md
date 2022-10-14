@@ -1,6 +1,6 @@
 # Task 3 - Create an Application Server
 
-The CSTv2 BIG-IP failover template involving an 'existing network' does not provide an demo application. In order to create a fully functional solution an demo application needs to be created first.
+The CSTv2 BIG-IP failover template involving an 'existing network' does not provide a demo application. In order to create a fully functioning solution an demo application needs to be created first.
 
 ```
 Note: When this guide is being followed while using a UDF AWS Cloud Account, you will be able to consume a max of 5 public IP addresses. This limitation makes that setting up an application server is done a bit different to avoid running out of public IP addresses.
