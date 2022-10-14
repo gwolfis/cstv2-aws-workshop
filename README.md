@@ -1,7 +1,7 @@
 # Workshop - Deploy F5 BIG-IP Failover via F5 Cloud Solution Templates v2 in AWS
 
 _____
-**Disclaimer: This workshop is a community owned initiative intended to educate F5 BIG-IP addicts how to leverage F5 Cloud Solutions Templates. This workshop does **NOT** come with F5 support and when deployed in your own environment use it at your own risk.**
+**Disclaimer: This workshop is a community owned initiative intended to educate F5 BIG-IP addicts how to leverage F5 Cloud Solutions Templates. This workshop does **NOT** come with F5 support and when deployed in your own environment, use it at your own risk.**
 _____
 
 ## Introduction
