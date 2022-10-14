@@ -77,7 +77,7 @@ With the VS private and public IP addresses set, next is to deploy the applicati
 ## Test BIG-IP failover
 1. Make sure you have opened AWS EC2 **Network & Security > Elastic IPs**.
 2. Log into the active BIG-IP and select `Online (ACTIVE)` in the upper left corner.
-    - (optional) when you like to use BIG-IP CLI for failover.
+    - (optional) when you like to use `BIG-IP CLI` for failover.
     **tmsh run sys failover standby**
 
 ![](../png/task4_p9.png)
