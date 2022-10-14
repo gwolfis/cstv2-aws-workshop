@@ -5,12 +5,12 @@ _____
 _____
 
 ## Introduction
-The following workshop goes through the use of Cloud Solution Templates v2 (CSTv2) to deploy BIG-IPs in AWS. F5 Cloud Solution Templates v2 are available for Cloud Solution Providers like: [AWS](https://github.com/F5Networks/f5-aws-cloudformation-v2), [Azure](https://github.com/F5Networks/f5-azure-arm-templates-v2) and [Google Cloud Platform (GCP)](https://github.com/F5Networks/f5-google-gdm-templates-v2). These templates are developed by F5 to deliver an easy way to deploy and implement F5 BIG-IP solutions in the mentioned public cloud provider environments.
+The following workshop goes through the use of **Cloud Solution Templates v2 (CSTv2)** to deploy BIG-IPs in AWS. F5 Cloud Solution Templates v2 are available for Cloud Solution Providers like: [AWS](https://github.com/F5Networks/f5-aws-cloudformation-v2), [Azure](https://github.com/F5Networks/f5-azure-arm-templates-v2) and [Google Cloud Platform (GCP)](https://github.com/F5Networks/f5-google-gdm-templates-v2). These templates are developed by F5 to deliver an easy way to deploy and implement F5 BIG-IP solutions in the mentioned public cloud provider environments.
 
 ## CSTv1 vs. CSTv2
 Before the introduction of CSTv2 there was CSTv1. CSTv1 are in maintenance mode and being replaced by CSTv2 and therefore it is strongly advised to use CSTv2 instead of v1.
 
-CSTv2 have been designed to improve the user experience with fewer templates, simplify full-stack deployments, enable customization via a new modular nested/linked architecture. The `example` templates have been tested and verified to work as-is and are intended to provide reference deployments of F5 BIG-IP Virtual Editions.
+CSTv2 have been designed to improve the user experience with fewer templates, simplify full-stack deployments, enable customization via a new modular nested/linked architecture. The templates have been tested and verified to work as-is and are intended to provide reference deployments of F5 BIG-IP Virtual Editions.
 
 Another reason to start using CSTv2 is because they use BIG-IP [Runtime-init](https://github.com/F5Networks/f5-bigip-runtime-init) which allows to:
 - Include support to leverage [F5 Automation Toolchain](https://www.f5.com/pdf/products/automation-toolchain-overview.pdf);
