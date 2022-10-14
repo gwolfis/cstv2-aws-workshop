@@ -1,16 +1,22 @@
 # Workshop - Deploy F5 BIG-IP Failover via F5 Cloud Solution Templates v2 in AWS
 
+```
+Disclaimer: This workshop is a community owned initiative intended to educate F5 BIG-IP addicts how to leverage F5 Cloud Solutions Templates. This workshop does **NOT** come with F5 support and when deployed in your own environment use it at your own risk.
+```
+
 ## Introduction
-The following workshop goes through the use of Cloud Solution Templates v2 (CSTv2) to deploy BIG-IPs in AWS. F5 Cloud Solution Templates v2 are available for Cloud Solution Providers like: AWS, Azure and Google Cloud Platform (GCP). These templates are developed by F5 to deliver an easy way to deploy and implement F5 BIG-IP solutions in the mentioned public cloud provider environments.
+The following workshop goes through the use of Cloud Solution Templates v2 (CSTv2) to deploy BIG-IPs in AWS. F5 Cloud Solution Templates v2 are available for Cloud Solution Providers like: [AWS](https://github.com/F5Networks/f5-aws-cloudformation-v2), [Azure](https://github.com/F5Networks/f5-azure-arm-templates-v2) and [Google Cloud Platform (GCP)](https://github.com/F5Networks/f5-google-gdm-templates-v2). These templates are developed by F5 to deliver an easy way to deploy and implement F5 BIG-IP solutions in the mentioned public cloud provider environments.
 
 ## CSTv1 vs. CSTv2
 Before the introduction of CSTv2 there was CSTv1. CSTv1 are in maintenance mode and being replaced by CSTv2 and therefore it is strongly advised to use CSTv2 instead of v1.
 
 CSTv2 have been designed to improve the user experience with fewer templates, simplify full-stack deployments, enable customization via a new modular nested/linked architecture. The `example` templates have been tested and verified to work as-is and are intended to provide reference deployments of F5 BIG-IP Virtual Editions.
 
-## Brief explanation of CSTv2
-why CSTv2 
-quickstarts which can be deployed with minimum effort and 
+Another reason to start using CSTv2 is because they use BIG-IP [Runtime-init](https://github.com/F5Networks/f5-bigip-runtime-init) which allows to:
+- Include support to leverage [F5 Automation Toolchain](https://www.f5.com/pdf/products/automation-toolchain-overview.pdf);
+- Renders secrets from public cloud vaults;
+- Renders runtime variables from cloud metadata services.
+
 
 ## How to use this workshop
 For invited student an F5 UDF lab environment will be available which includes access to an AWS cloud environment and all needed facilities.
@@ -32,7 +38,7 @@ Tasks to deploy are:
 * Manually create a VPC, affiliated networking components and a test application
 * Use CSTv2 'existing network' to deploy BIG-IP
 
-The mix between manually configuring AWS components and the use of CloudFormation Templates (CFTs) make that one will better understand the deployed objects and the relationship between eachother.
+The mix between manually configuring AWS components and the use of CloudFormation Templates (CFTs) make that one will better understand the deployed objects and the relationship between each other.
 
 --Happy Learning--
 

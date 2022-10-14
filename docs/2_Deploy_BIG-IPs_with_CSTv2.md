@@ -141,12 +141,31 @@ After a couple of minutes you will see a simular message as below which indicate
 2022-10-12T12:15:05.313Z [9155]: info: All operations finished successfully
 ```
 
-10. Use a browser to go to the **BIG-IP GUI https://<i>'bigip pubIP'</i>**.
-11. When you check the BIG-IP status right next the F5 logo (left upper corner) it should say `In Sync` and the BIG-IP will have either an ACTIVE or STANDBY state. The BIG-IPs are deployed as a high available cluster.
-12. Check if there are other partitions besides `Common`.
+## Check the BIG-IP config
+1. Stop the logging and use the cmd line to check what actually has been configured on the BIG-IP.
+2. Examine the Runtime-init configuration being deployed.
+
+   **cat /config/cloud/runtime-init.conf**
+
+3. Check the deployed F5 Automated Toolchain declarations.
+
+   **curl -u admin: http://localhost:8100/mgmt/shared/declarative-onboarding | jq .**
+
+4. Examine the BIG-IP Cloud Failover declaration.
+
+   **curl -su admin: http://localhost:8100/mgmt/shared/cloud-failover/declare | jq .**
+
+
+## Check the BIG-IP
+1. Use a browser to go to the **BIG-IP GUI https://<i>'bigip pubIP'</i>**.
+2. When you check the BIG-IP status right next the F5 logo (left upper corner) it should say `In Sync` and the BIG-IP will have either an ACTIVE or STANDBY state. The BIG-IPs are deployed as a high available cluster.
+3. Check if there are other partitions besides `Common`.
 
 Runtime-init did not provide an application services (AS3) configuration and you will notice there is no active configuration residing on the BIG-IP.
 
-13. Back at the AWS Console, check `CloudFormation`. The Parent template and all 'nested' templates show a status of `Create_Complete`.
+4. Back at the AWS Console, check `CloudFormation`. The Parent template and all 'nested' templates show a status of `Create_Complete`.
+
+This task is completed.
 
 
+[PREVIOUS](../docs/1_Setup_the_VPC_and_More.md)      [NEXT](../docs/2_Deploy_BIG-IPs_with_CSTv2.md)
