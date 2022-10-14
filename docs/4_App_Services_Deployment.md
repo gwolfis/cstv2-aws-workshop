@@ -95,3 +95,8 @@ Questions:
 2. Once logged in type **bash** to ensure you are in shell mode.
 3. In each terminal type **tail -f /var/log/restnoded/restnoded.log**.
 4. Now enforce a failover and watch the logging carefully.
+
+This task is completed.
+
+
+[PREVIOUS](../docs/3_Create_Demo_App.md)  

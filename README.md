@@ -36,4 +36,18 @@ The mix between manually configuring AWS components and the use of CloudFormatio
 
 --Happy Learning--
 
-## Table of Content
+**********************************
+## Table of Contents
+**********************************
+
+**[0. Getting Started](docs/0_Getting_Started.md)**
+
+**[1. Deploy VPC and More](docs/1_Setup_the_VPC_and_More.md)**
+
+**[2. Deploy BIGIPs with CSTv2](docs/2_Deploy_BIG-IPs_with_CSTv2.md)**
+
+**[3. Create F5 demo App](docs/3_Create_Demo_App.md)**
+
+**[4. App Services Deploy and Test](docs/4_App_Services_Deployment.md)**
+
+*********************************

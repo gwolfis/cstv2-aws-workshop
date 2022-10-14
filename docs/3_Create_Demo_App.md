@@ -67,3 +67,7 @@ This task provides manual steps to create an demo application:
 2. On the `Disassociate Elastic IP address` page, select **Disassociate Elastic IP address**.
 3. Type **proceed** in the field and hit **Disassociate**.
 
+This task is completed.
+
+
+[PREVIOUS](../docs/2_Deploy_BIG-IPs_with_CSTv2.md)      [NEXT](../docs/3_Create_Demo_App.md)

@@ -3,6 +3,9 @@
 ## How to start
 Before being able to deploy Cloud Solution Templates v2 in AWS, a couple of things need to be sorted.
 
+This workshop makes use of an UDF Blueprint which can be found following this link: 
+https://udf.f5.com/b/2c537e6f-8851-4539-a0c1-c03761b56e16#documentation.
+
 ## Login to UDF
 1. Go to the UDF deployed lab environment and select `Access` at the Jumphost and click `RDP`.
 
@@ -16,9 +19,9 @@ Before being able to deploy Cloud Solution Templates v2 in AWS, a couple of thin
 4. Ignore `Authentication Required` and hit `Cancel`.
 5. In the top left corner, select `Activities` and than select `Chrome`.
 6. Go back to the UDF Blueprint and open the `Cloud Accouns` tab and:
-- Copy the `Console URL` and paste it into the Jumphost browser. AWS Console login opens.
-- `IAM user name` is `udf`.
-- From the `Clount Accounts` tab, copy the **password** and paste into the AWS Console and hit `Sign in`.
+   - Copy the `Console URL` and paste it into the Jumphost browser. AWS Console login opens.
+   - `IAM user name` is `udf`.
+   - From the `Clount Accounts` tab, copy the **password** and paste into the AWS Console and hit `Sign in`.
 7. Check your **Region** in the right uppercorner. If needed, change it to region `Europe (Frankfurt) eu-central-1`.
 
 
@@ -55,6 +58,7 @@ We will use this key pair at a later stage to SSH into instances, deployed in AW
   4. Select **Accept Terms**.
   5. Under `Terms and Conditions` you will find a table which shows `pending` wait for it to finish. It will take a minute or two before it publishes the 'effective date' and 'expiration date' of the subscription.
 
-You have finished this task.
+You have completes this task.
 
 
+[PREVIOUS](../README.md)      [NEXT](../docs/0_Getting_Started.md)
