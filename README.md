@@ -56,4 +56,6 @@ The mix between manually configuring AWS components and the use of CloudFormatio
 
 **[4. App Services Deploy and Test](docs/4_App_Services_Deployment.md)**
 
+**[5. Delete Deployment](docs/5_Delete_Deployment.md)**
+
 *********************************
