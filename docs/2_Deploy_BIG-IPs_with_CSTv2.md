@@ -2,9 +2,9 @@
 
 AWS Cloudformation templates will be used to deploy F5 BIG-IP Virtual Edition. The AWS CSTv2 templates can be found at: https://github.com/F5Networks/f5-aws-cloudformation-v2 and in this lab we will deploy BIG-IP failover which can be found when clicking `examples` in the Github folder.
 
-```
-Note: The template can be deployed by using the GUI or via AWS CLI. Since UDF has some limitations when using the AWS GUI, AWS CLI will be used during this deployment. When you use your own AWS account this limitation might not exist.
-```
+___
+**Note:** The template can be deployed by using the GUI or via AWS CLI. Since UDF has some limitations when using the AWS GUI, AWS CLI will be used during this deployment. When you use your own AWS account this limitation might not exist.
+___
 
 This task will provide:
 - Setup the Jumphost to use AWS CLI;
