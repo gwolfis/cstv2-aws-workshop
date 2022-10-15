@@ -35,8 +35,6 @@ This task will guide you through the setup and minimum requirements by configuri
 | subnet-management-B | eu-central-1b | 10.0.10.0/24 |
 | subnet-external-B | eu-central-1b | 10.0.11.0/24 |
 | subnet-internal-B | eu-central-1b | 10.0.12.0/24 |
-|
-
 
 After deployment in AWS it should like this.
 

@@ -106,7 +106,6 @@ Before being able to deploy we need to prepare the `parameters.json` file.
 | sshKey | <i>'SSH key **Name**'</i> |
 | uniqueString | <i>'your name'</i>
 | vpcId | <i>'copy and paste bigip-vpc id'</i>
-|
 
 3. Make sure you filled in all mentioned parameters before continuing and press **Ctrl+s** to save the file!
 4. Deploy the CSTv2 template with the following AWS cmd:
