@@ -7,9 +7,9 @@ Note: When this guide is being followed while using a UDF AWS Cloud Account, you
 ```
 
 This task provides manual steps to create an demo application:
-- Deploy an Ubuntu instance.
-- Add an Elastic IP to the instance.
-- Installing Docker and running an `f5-demo-app` container.
+- Deploy an Ubuntu instance;
+- Add an Elastic IP to the instance;
+- Installing Docker and running an `f5-demo-app` container;
 - **!!Releasing the public IP address (mandatory)!!**
 
 ## Create the demo application
@@ -59,7 +59,7 @@ This task provides manual steps to create an demo application:
 ![](../png/task3_p4.png)
 
 5. Test the demo app:
-    - From the cmd line **curl localhost**.
+    - From the cmd line **curl localhost**;
     - Copy the demo app public IP and paste it in a browser.
 
 ## !!!Release the Public IP!!!

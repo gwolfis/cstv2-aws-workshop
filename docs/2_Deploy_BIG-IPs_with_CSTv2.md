@@ -7,9 +7,9 @@ Note: The template can be deployed by using the GUI or via AWS CLI. Since UDF ha
 ```
 
 This task will provide:
-- Setup the Jumphost to use AWS CLI.
-- Clone and modify the AWS CSTv2 repo from Github.
-- Create a secret stored in AWS secret manager.
+- Setup the Jumphost to use AWS CLI;
+- Clone and modify the AWS CSTv2 repo from Github;
+- Create a secret stored in AWS secret manager;
 - Walk through the steps to use the F5 CSTv2 cloudformation template.
 
 ## Ubuntu Jumphost
@@ -76,8 +76,8 @@ Before being able to deploy we need to prepare the `parameters.json` file.
    NOTE: Take your time to fill in this .json file, don't rush!! The template deployment will fail if you make a mistake.
    ```
    Some remarks when filling in the .json:
-   - **cfeS3Bucket** - put your first name here and hit your keyboard for a random number just to be sure that your S3 bucket has globally unique name.
-   - **...SubnetId...** - Go to **AWS console > VPC** and select the requested SubnetId **(not the name)** and copy/paste it into the `parameters.json`.
+   - **cfeS3Bucket** - put your first name here and hit your keyboard for a random number just to be sure that your S3 bucket has globally unique name;
+   - **...SubnetId...** - Go to **AWS console > VPC** and select the requested SubnetId **(not the name)** and copy/paste it into the `parameters.json`;
    - **bigIpSecretArn** - Copy and paste the secretARN from the AWS Secrets Manager.
 
 | ParameterKey | ParameterValue |
@@ -131,8 +131,8 @@ This AWS cmd will deploy the CSTv2 example **failover** where the template will 
 9. Type **tail -f /var/log/cloud/bigIpRuntimeInit.log** amd hit `Enter`.
 
 Watch how the runtime-init file gets configured on the BIG-IP.
-- First the F5 Automation Toolchain packages are getting pulled from the F5 CDN and are getting installed.
-- Then each F5 ATC defined script will get deployed.
+- First the F5 Automation Toolchain packages are getting pulled from the F5 CDN and are getting installed;
+- Then each F5 ATC defined script will get deployed;
 - CSTv2 templates deliver the liberty to use different runtime-init scripts. This can be managed from the parameters.json file.
 
 After a couple of minutes you will see a simular message as below which indicates that runtime-init is finished.

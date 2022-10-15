@@ -19,9 +19,9 @@ https://udf.f5.com/b/2c537e6f-8851-4539-a0c1-c03761b56e16#documentation.
 4. Ignore `Authentication Required` and hit `Cancel`.
 5. In the top left corner, select `Activities` and than select `Chrome`.
 6. Go back to the UDF Blueprint and open the `Cloud Accouns` tab and:
-   - Copy the `Console URL` and paste it into the Jumphost browser. AWS Console login opens.
-   - `IAM user name` is `udf`.
-   - From the `Clount Accounts` tab, copy the **password** and paste into the AWS Console and hit `Sign in`.
+   - Copy the `Console URL` and paste it into the Jumphost browser. AWS Console login opens;
+   - `IAM user name` is `udf`;
+   - From the `Clount Accounts` tab, copy the **password** and paste into the AWS Console and hit `Sign in`;
 7. Check your **Region** in the right uppercorner. If needed, change it to region `Europe (Frankfurt) eu-central-1`.
 
 
