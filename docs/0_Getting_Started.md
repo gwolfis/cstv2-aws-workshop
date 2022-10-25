@@ -58,7 +58,7 @@ We will use this key pair at a later stage to SSH into instances, deployed in AW
   4. Select **Accept Terms**.
   5. Under `Terms and Conditions` you will find a table which shows `pending` wait for it to finish. It will take a minute or two before it publishes the 'effective date' and 'expiration date' of the subscription.
 
-You have completes this task.
+You have completed this task.
 
 
 [PREVIOUS](../README.md)      [NEXT](../docs/1_Setup_the_VPC_and_More.md)
