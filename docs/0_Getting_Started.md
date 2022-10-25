@@ -47,7 +47,7 @@ We will use this key pair at a later stage to SSH into instances, deployed in AW
 
 ## Subscribe to F5 EULA
 
-  The F5 product used for this workshop is `F5 BIG-IP BEST PAYG 25MB` and we need to sign the EULA first, otherwise the BIG-IP deployment will fail.
+  The F5 product used for this workshop is `F5 BIG-IP BEST with IPI and Threat Campaigns (PAYG, 25Mbps)` and we need to sign the EULA first, otherwise the BIG-IP deployment will fail.
 
   1. In the **AWS Console** go to the searchbar and search for `AWS Marketplace Subscriptions` and select it.
   2. In the **left pane** select `Discover product` and copy and paste `F5 BIG-IP BEST with IPI and Threat Campaigns (PAYG, 25Mbps)` in the search bar and hit enter.
